@@ -1,16 +1,49 @@
-# React + Vite
+# WattWise — Resource Waste Detective
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Detect Waste. Save Resources. Build a Sustainable Future.**
 
-Currently, two official plugins are available:
+WattWise is an AI-powered resource monitoring and analytics platform designed to identify potential electricity waste and water leaks in buildings. It helps users prioritize alerts, track maintenance actions, and estimate savings using post-action monitoring.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://waste-detective-frontend-thso-dc9zxk6tt-moon-c8d8.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Source Code
 
-## Expanding the Oxlint configuration
+- **Frontend Repository:** https://github.com/Memoona-Qaiser/waste-detective-frontend
+- **Backend Repository:** https://github.com/Memoona-Qaiser/waste-detective-backend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Key Features
+
+- Electricity anomaly detection using statistical baselines and Isolation Forest.
+- Potential water leak detection using Minimum Night Flow analysis.
+- Confidence-based alert prioritization.
+- Interactive dashboard and consumption charts.
+- CSV upload and data cleaning.
+- Maintenance task review and tracking.
+- Audit logs and printable reports.
+- Estimated versus verified savings reporting.
+
+## 🛠️ Technology Stack
+
+**Frontend:** React, Vite, Tailwind CSS, Recharts  
+**Backend:** Python, FastAPI, Pandas, NumPy, Scikit-learn  
+**Database:** SQLite
+
+## 👩‍💻 Team
+
+**Team Name:** She Hacks
+
+- Memoona Qaiser
+- Asima Qaiser
+
+## 📊 Data Disclaimer
+
+The current demonstration uses illustrative simulated data. Real smart-meter integration and validation using real-world electricity and water datasets are planned future improvements.
+
+## 🎯 Future Scope
+
+- Integration with real electricity and water meters.
+- Testing with public datasets such as the LEAD electricity dataset.
+- Weather- and occupancy-aware consumption analysis.
+- Improved authentication and user permissions.
